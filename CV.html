@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Sciacalli Adam</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .cv-container {
+            width: 800px;
+            background-color: #f9ebe0;
+            padding: 30px;
+            position: relative;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .cv-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .cv-title {
+            color: #1e3d59;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .cv-subtitle {
+            color: #2e86ab;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            background-color: #d1e3f0;
+            border: 3px solid #2e86ab;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .profile-pic img {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section-title {
+            color: #1e3d59;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #2e86ab;
+        }
+        .skill-bar {
+            height: 12px;
+            background-color: #d1e3f0;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            position: relative;
+        }
+        .skill-level {
+            height: 100%;
+            background-color: #2e86ab;
+            border-radius: 6px;
+        }
+        .skill-item {
+            margin-bottom: 8px;
+        }
+        .skill-name {
+            font-size: 14px;
+            margin-bottom: 3px;
+        }
+        .experience-item {
+            margin-bottom: 15px;
+        }
+        .experience-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .experience-date {
+            font-style: italic;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .experience-desc {
+            font-size: 14px;
+        }
+        .experience-desc ul {
+            padding-left: 20px;
+        }
+        .corner-decoration {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+        }
+        .top-left {
+            top: 0;
+            left: 0;
+            border-top: 3px solid #2e86ab;
+            border-left: 3px solid #2e86ab;
+            border-top-left-radius: 10px;
+        }
+        .top-right {
+            top: 0;
+            right: 0;
+            border-top: 3px solid #2e86ab;
+            border-right: 3px solid #2e86ab;
+            border-top-right-radius: 10px;
+        }
+        .bottom-left {
+            bottom: 0;
+            left: 0;
+            border-bottom: 3px solid #2e86ab;
+            border-left: 3px solid #2e86ab;
+            border-bottom-left-radius: 10px;
+        }
+        .bottom-right {
+            bottom: 0;
+            right: 0;
+            border-bottom: 3px solid #2e86ab;
+            border-right: 3px solid #2e86ab;
+            border-bottom-right-radius: 10px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .contact-item {
+            margin-bottom: 5px;
+        }
+        .logo-badge {
+            background-color: #2e86ab;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="corner-decoration top-left"></div>
+        <div class="corner-decoration top-right"></div>
+        <div class="corner-decoration bottom-left"></div>
+        <div class="corner-decoration bottom-right"></div>
+        <div class="logo-badge">CV</div>
+        
+        <div class="cv-header">
+            <div>
+                <div class="cv-title">CURRICULUM VITAE</div>
+            </div>
+            <div>
+                <div class="cv-subtitle">JUNIOR WEB DEVELOPER</div>
+            </div>
+        </div>
+        
+        <div class="profile-section">
+            <div class="profile-pic">
+                <img src="/api/placeholder/150/150 " alt="Sciacalli Adam">
+            </div>
+            <h2>SCIACALLI ADAM</h2>
+            <h3>JUNIOR DÉVELOPPEUR WEB</h3>
+        </div>
+        
+        <div class="contact-info">
+            <div class="contact-item">292 avenue de la Libération Charles de Gaulle 33110 Le Bouscat</div>
+            <div class="contact-item">Téléphone : 07 66 21 08 40</div>
+            <div class="contact-item">Email : adamsciacalli17@gmail.com</div>
+            <div class="contact-item">Permis : Non</div>
+            <div class="contact-item">Date de naissance : 27/03/2003</div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">PROFIL</div>
+            <p>Actuellement en formation pour devenir développeur web & mobile, je suis motivé, curieux et prêt à m'investir dans une première expérience professionnelle dans le numérique. J'ai également acquis de l'expérience en restauration rapide et en milieu pharmaceutique.</p>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">FORMATION</div>
+            <div class="experience-item">
+                <div class="experience-title">Graduate Développeur Web & Mobile – STUDI (100 % en ligne)</div>
+                <div class="experience-date">En cours</div>
+                <div class="experience-desc">
+                    Apprentissage du développement web (HTML, CSS, JavaScript), des bases de données, Git, et des outils collaboratifs.
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">EXPÉRIENCES PROFESSIONNELLES</div>
+            <div class="experience-item">
+                <div class="experience-title">Aide en restauration rapide</div>
+                <div class="experience-date">Novembre 2022</div>
+                <div class="experience-desc">
+                    <ul>
+                        <li>Préparation des commandes en cuisine</li>
+                        <li>Service client et prise de commandes</li>
+                        <li>Organisation et rangement des produits</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-title">Stage en pharmacie</div>
+                <div class="experience-date">Février & Mars 2018/2019</div>
+                <div class="experience-desc">
+                    <ul>
+                        <li>Accueil des clients</li>
+                        <li>Aide à la gestion du stock</li>
+                        <li>Observation des tâches pharmaceutiques</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">COMPÉTENCES</div>
+            <div class="skill-item">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 65%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">JavaScript (bases)</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">Git/GitHub</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 55%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">Visual Studio Code</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">Trello</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">LANGUES</div>
+            <div class="skill-item">
+                <div class="skill-name">Italien (Langue maternelle)</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">Français</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">Anglais (Niveau intermédiaire)</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">CENTRES D'INTÉRÊT</div>
+            <p>Informatique, jeux vidéo, développement web, culture numérique, sport</p>
+        </div>
+    </div>
+</body>
+</html>
